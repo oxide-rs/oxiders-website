@@ -800,7 +800,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('oxiders-website-6ee51901b4702cc_bg.wasm', import.meta.url);
+        input = new URL('oxiders-website-d491aa03e31e48eb_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
